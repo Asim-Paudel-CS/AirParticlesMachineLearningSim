@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wholePage{
+    background-color: rgb(222, 222, 235);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    right: 0;
+    display: flex;
+}
+
+.viewPort{
+    background-color: rgba(41, 35, 58, 0.84);
+    height: 100vh;
+    width: calc(100vw - 300px);
+    z-index: 1;
+}
+
+.options{
+    background-color: rgb(41, 35, 58);
+    /* background-color: rgba(194, 179, 236, 0.182); */
+    z-index: 0;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.simulationViewport{
+    background-color: aquamarine;
+    /* position: relative; */
+    /* height: 99.4vh; */
+    /* width: 99.4vh */
+}
+.button1{
+    background-color: aliceblue;
+    margin-inline: 110px;
+    width: 90px;
+}
